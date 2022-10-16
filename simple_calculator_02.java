@@ -8,13 +8,13 @@ public class simple_calculator_02 {
 
     public static void main(String[] args) {
         
-        operation();
+        calculation();
     }
 
     static Scanner sc = new Scanner (System.in);
     public static int num1, num2;
     
-    public static void operation (){
+    public static void calculation (){
 
         System.out.println("1. Addition       | +");
         System.out.println("2. Subtraction    | -");
@@ -52,7 +52,7 @@ public class simple_calculator_02 {
         }
         
         System.out.println("--------------------------------------------");
-        operation ();
+        calculation ();
     }
     
     
